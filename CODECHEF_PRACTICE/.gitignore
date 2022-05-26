@@ -1,0 +1,6 @@
+
+*.prob
+*.bin
+*.exe
+temp.cpp
+.vscode/settings.json
