@@ -8,8 +8,8 @@ using namespace std;
 void solve()
 {
     int n;  cin>>n;
-    for(int i=0;i<n-1;i++){
-        cout<<i+2<<" ";
+    for(int i=2;i<=n;i++){
+        cout<<i<<" ";
     }
     cout<<1<<endl;
 }
