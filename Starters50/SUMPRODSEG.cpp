@@ -7,16 +7,16 @@ using namespace std;
 
 void solve()
 {
-    int x, y;
+    ll x, y;
     cin >> x >> y;
 
     for (int i = 1; i <= sqrt(y); i++)
     {
         if(y%i!=0)  continue;
-        int y1 = i , y2 = y/y1;
+        ll y1 = i , y2 = y/y1;
 
-        int x1 = x/2;
-        int x2 = x/2 + (x%2) ;
+        ll x1 = x/2;
+        ll x2 = x/2 + (x%2) ;
 
         if((y1>x2 || y2<x1))
         {
