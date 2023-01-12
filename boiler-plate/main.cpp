@@ -10,16 +10,14 @@ using namespace std;
 
 void solve()
 {
-    vi v(5);
-    scanArray(v);
-    printArray(v);
+    $2
 }
 
 int main()
 {
      ios_base::sync_with_stdio(false);
     cin.tie(NULL), cout.tie(NULL);
-    int T=1;  
+    int T=1; $1  
     cin>>T;
     for(int c=1;c<T+1; c++)
     {
