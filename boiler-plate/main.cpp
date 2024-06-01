@@ -48,10 +48,8 @@ int main()
     cin.tie(NULL), cout.tie(NULL);
     _test() $1
         solve();
-
-
+        
     _print_time();
-    
     return 0;    
 }
 
